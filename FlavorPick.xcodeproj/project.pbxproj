@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB8C00BE9F41FCCA29A2A2D3 /* Pods_FlavorPick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88817FDDE5B9191B5BA1C48 /* Pods_FlavorPick.framework */; };
 		D0EB3A8C2032C3B700CCEF6D /* FlavorPick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EB3A822032C3B700CCEF6D /* FlavorPick.framework */; };
 		D0EB3A912032C3B700CCEF6D /* FlavorPickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EB3A902032C3B700CCEF6D /* FlavorPickTests.swift */; };
 		D0EB3A932032C3B700CCEF6D /* FlavorPick.h in Headers */ = {isa = PBXBuildFile; fileRef = D0EB3A852032C3B700CCEF6D /* FlavorPick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0EB3A9D2032C4AB00CCEF6D /* PickFlavorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EB3A9C2032C4AB00CCEF6D /* PickFlavorViewController.swift */; };
+		D0EB3AA42032C4C400CCEF6D /* ScoopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EB3A9E2032C4C400CCEF6D /* ScoopCell.swift */; };
+		D0EB3AA52032C4C400CCEF6D /* ScoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EB3A9F2032C4C400CCEF6D /* ScoopView.swift */; };
+		D0EB3AA62032C4C400CCEF6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0EB3AA02032C4C400CCEF6D /* Main.storyboard */; };
+		D0EB3AA72032C4C400CCEF6D /* FlavorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EB3AA12032C4C400CCEF6D /* FlavorFactory.swift */; };
+		D0EB3AA82032C4C400CCEF6D /* IceCreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EB3AA22032C4C400CCEF6D /* IceCreamView.swift */; };
+		D0EB3AA92032C4C400CCEF6D /* Flavor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EB3AA32032C4C400CCEF6D /* Flavor.swift */; };
+		D0EB3AAB2032C65700CCEF6D /* UIColor+RGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EB3AAA2032C65700CCEF6D /* UIColor+RGBA.swift */; };
+		D0EB3AAD2032C6B300CCEF6D /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0EB3AAC2032C6B300CCEF6D /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +33,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7322497FEAEABD9A363EEBDE /* Pods-FlavorPick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavorPick.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlavorPick/Pods-FlavorPick.release.xcconfig"; sourceTree = "<group>"; };
+		8C19E38DC2689CB754A9EE61 /* Pods-FlavorPick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavorPick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlavorPick/Pods-FlavorPick.debug.xcconfig"; sourceTree = "<group>"; };
+		A88817FDDE5B9191B5BA1C48 /* Pods_FlavorPick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlavorPick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EB3A822032C3B700CCEF6D /* FlavorPick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlavorPick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EB3A852032C3B700CCEF6D /* FlavorPick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlavorPick.h; sourceTree = "<group>"; };
 		D0EB3A862032C3B700CCEF6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0EB3A8B2032C3B700CCEF6D /* FlavorPickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlavorPickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EB3A902032C3B700CCEF6D /* FlavorPickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorPickTests.swift; sourceTree = "<group>"; };
 		D0EB3A922032C3B700CCEF6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0EB3A9C2032C4AB00CCEF6D /* PickFlavorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickFlavorViewController.swift; sourceTree = "<group>"; };
+		D0EB3A9E2032C4C400CCEF6D /* ScoopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopCell.swift; sourceTree = "<group>"; };
+		D0EB3A9F2032C4C400CCEF6D /* ScoopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopView.swift; sourceTree = "<group>"; };
+		D0EB3AA02032C4C400CCEF6D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D0EB3AA12032C4C400CCEF6D /* FlavorFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlavorFactory.swift; sourceTree = "<group>"; };
+		D0EB3AA22032C4C400CCEF6D /* IceCreamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceCreamView.swift; sourceTree = "<group>"; };
+		D0EB3AA32032C4C400CCEF6D /* Flavor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flavor.swift; sourceTree = "<group>"; };
+		D0EB3AAA2032C65700CCEF6D /* UIColor+RGBA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RGBA.swift"; sourceTree = "<group>"; };
+		D0EB3AAC2032C6B300CCEF6D /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB8C00BE9F41FCCA29A2A2D3 /* Pods_FlavorPick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +73,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82A0599025F97590DA33419D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A88817FDDE5B9191B5BA1C48 /* Pods_FlavorPick.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCFC8B0809CD414F75A17640 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C19E38DC2689CB754A9EE61 /* Pods-FlavorPick.debug.xcconfig */,
+				7322497FEAEABD9A363EEBDE /* Pods-FlavorPick.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D0EB3A782032C3B700CCEF6D = {
 			isa = PBXGroup;
 			children = (
 				D0EB3A842032C3B700CCEF6D /* FlavorPick */,
 				D0EB3A8F2032C3B700CCEF6D /* FlavorPickTests */,
 				D0EB3A832032C3B700CCEF6D /* Products */,
+				BCFC8B0809CD414F75A17640 /* Pods */,
+				82A0599025F97590DA33419D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +113,17 @@
 		D0EB3A842032C3B700CCEF6D /* FlavorPick */ = {
 			isa = PBXGroup;
 			children = (
+				D0EB3AAA2032C65700CCEF6D /* UIColor+RGBA.swift */,
+				D0EB3A9C2032C4AB00CCEF6D /* PickFlavorViewController.swift */,
+				D0EB3AA32032C4C400CCEF6D /* Flavor.swift */,
+				D0EB3AA12032C4C400CCEF6D /* FlavorFactory.swift */,
+				D0EB3AA22032C4C400CCEF6D /* IceCreamView.swift */,
+				D0EB3AA02032C4C400CCEF6D /* Main.storyboard */,
+				D0EB3A9E2032C4C400CCEF6D /* ScoopCell.swift */,
+				D0EB3A9F2032C4C400CCEF6D /* ScoopView.swift */,
 				D0EB3A852032C3B700CCEF6D /* FlavorPick.h */,
 				D0EB3A862032C3B700CCEF6D /* Info.plist */,
+				D0EB3AAC2032C6B300CCEF6D /* background.jpg */,
 			);
 			path = FlavorPick;
 			sourceTree = "<group>";
@@ -104,10 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0EB3A962032C3B700CCEF6D /* Build configuration list for PBXNativeTarget "FlavorPick" */;
 			buildPhases = (
+				4A615FAF3F090FDD3089637D /* [CP] Check Pods Manifest.lock */,
 				D0EB3A7D2032C3B700CCEF6D /* Sources */,
 				D0EB3A7E2032C3B700CCEF6D /* Frameworks */,
 				D0EB3A7F2032C3B700CCEF6D /* Headers */,
 				D0EB3A802032C3B700CCEF6D /* Resources */,
+				EBDDB2E3CB1694D1BB282151 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,6 +201,7 @@
 				TargetAttributes = {
 					D0EB3A812032C3B700CCEF6D = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					D0EB3A8A2032C3B700CCEF6D = {
@@ -179,6 +233,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0EB3AA62032C4C400CCEF6D /* Main.storyboard in Resources */,
+				D0EB3AAD2032C6B300CCEF6D /* background.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,11 +247,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A615FAF3F090FDD3089637D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlavorPick-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBDDB2E3CB1694D1BB282151 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlavorPick/Pods-FlavorPick-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0EB3A7D2032C3B700CCEF6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0EB3AA72032C4C400CCEF6D /* FlavorFactory.swift in Sources */,
+				D0EB3AAB2032C65700CCEF6D /* UIColor+RGBA.swift in Sources */,
+				D0EB3AA42032C4C400CCEF6D /* ScoopCell.swift in Sources */,
+				D0EB3A9D2032C4AB00CCEF6D /* PickFlavorViewController.swift in Sources */,
+				D0EB3AA92032C4C400CCEF6D /* Flavor.swift in Sources */,
+				D0EB3AA82032C4C400CCEF6D /* IceCreamView.swift in Sources */,
+				D0EB3AA52032C4C400CCEF6D /* ScoopView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +432,9 @@
 		};
 		D0EB3A972032C3B700CCEF6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C19E38DC2689CB754A9EE61 /* Pods-FlavorPick.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -346,6 +447,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.FlavorPick;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -353,7 +455,9 @@
 		};
 		D0EB3A982032C3B700CCEF6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7322497FEAEABD9A363EEBDE /* Pods-FlavorPick.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -374,6 +478,7 @@
 		D0EB3A9A2032C3B700CCEF6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FlavorPickTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -387,6 +492,7 @@
 		D0EB3A9B2032C3B700CCEF6D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FlavorPickTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
