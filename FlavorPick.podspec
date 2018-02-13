@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 # 1
 s.platform = :ios
-s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '9.0'
 s.name = "FlavorPick"
 s.summary = "FlavorPick lets a user select an ice cream flavor."
 s.requires_arc = true
@@ -24,14 +24,14 @@ s.author = { "forciagrace" => "forciagrace@gmail.com" }
 s.homepage = "https://github.com/Forciagrace/FlavorPick"
 
 # For example,
-# s.homepage = "https://github.com/JRG-Developer/RWPickFlavor"
+# s.homepage = "https://github.com/JRG-Developer/FlavorPick"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
 s.source = { :git => "https://github.com/Forciagrace/FlavorPick.git", :tag => "#{s.version}"}
 
 # For example,
-# s.source = { :git => "https://github.com/JRG-Developer/RWPickFlavor.git", :tag => "#{s.version}"}
+# s.source = { :git => "https://github.com/JRG-Developer/FlavorPick.git", :tag => "#{s.version}"}
 
 
 # 7
